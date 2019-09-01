@@ -21,7 +21,7 @@ public class RestNitController {
 	private PersonService personService;
 
 	
-	//createuuuuuOmoi
+	//createuuuuuOmoilll
 	@PostMapping("/person")
 	public String savePersonObject(@RequestBody PersonDTO personDTO) {
 		Strin s1 = 1;
