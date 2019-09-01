@@ -24,6 +24,8 @@ public class RestNitController {
 	//createuuuuuOmoi
 	@PostMapping("/person")
 	public String savePersonObject(@RequestBody PersonDTO personDTO) {
+		String s22223333 = "11";
+		String sdfdfsdf = "2222";
 		String result = personService.savePersonDate(personDTO);
 		return result;
 	}
